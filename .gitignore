@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+DUTS/
+FIQA/
+ADMNet-main/input/
+ADMNet-main/output/
+# 虚拟环境
+venv/
+.env/
+.conda/
+
+# 深度学习
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.tar
+# 数据与输出
+data/
+datasets/
+outputs/
+logs/
+runs/
+RINet-main/result/
+gradua-proj2/
+*.pdf
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+ADMNet-main/debug_*.jpg
+ADMNet-main/test_*.jpg
+ADMNet-main/archive/*.pkl
+
