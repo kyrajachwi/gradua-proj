@@ -210,34 +210,6 @@ RINet-main/result/FIQA_ablation/ablation_summary.json
 
 其中 MSE 越低越好，MAE 越低越好，PLCC 越高越好。
 
-## GitHub 上传建议
-
-上传代码时建议保留：
-
-```text
-RINet-main/
-ADMNet-main/
-scripts/
-README.md
-.gitignore
-```
-
-不建议上传：
-
-```text
-FIQA/
-DUTS/
-*.zip
-*.pt
-*.pth
-*.ckpt
-RINet-main/result/
-*.pdf
-*.docx
-```
-
-如果需要共享数据集、权重或实验结果，建议使用网盘、Release 附件或单独的数据仓库。
-
 ## 致谢
 
 本项目基于 RINet 相关代码进行扩展：
