@@ -17,6 +17,7 @@ venv/
 *.ckpt
 *.onnx
 *.tar
+*.zip
 # 数据与输出
 data/
 datasets/
@@ -26,6 +27,7 @@ runs/
 RINet-main/result/
 gradua-proj2/
 *.pdf
+*.docx
 
 # 系统文件
 .DS_Store
