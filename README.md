@@ -41,8 +41,6 @@
 └── README.md
 ```
 
-数据集和训练结果不建议上传到 GitHub。推荐通过 `.gitignore` 排除 `FIQA/`、`DUTS/`、`RINet-main/result/`、模型权重和压缩包等大文件。
-
 ## 数据集格式
 
 默认数据集根目录为 `FIQA/`，并划分为 `train`、`val`、`test` 三个子集：
@@ -84,22 +82,6 @@ FIQA/
 - ROI 图像文件名应与原图文件名对应
 - `left_eye/`、`right_eye/`、`mouth/` 也支持放在 `local_patches/` 下
 - 如果 ROI 缺失，默认使用零张量；开启 `--strict_roi` 后会严格检查 ROI 文件
-
-## 环境配置
-
-推荐使用 Conda：
-
-```bash
-cd RINet-main
-conda env create -f environment.yaml
-conda activate RINet
-```
-
-如果手动安装，核心依赖包括：
-
-```bash
-pip install torch torchvision numpy pillow tqdm scipy scikit-image matplotlib opencv-python-headless
-```
 
 ## 训练
 
